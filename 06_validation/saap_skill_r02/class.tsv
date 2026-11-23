@@ -1,0 +1,9 @@
+event	genes	sequence	IL_key	audit_status	FDR_result	main_peptide_q	prosit_peptide_q	secondary_peptide_q	main_class_winning_PSMs	main_PSM_q1_count	prosit_PSM_q1_count	previous_Prosit_label	formal_peptide_1pct_acceptance	pipeline_FDR_controlled
+	ACTA1;ACTA2;ACTC1;ACTG2	CPETLFQPSFIGDESAGIHETTYNSIMK	CPETIFQPSFIGDESAGIHETTYNSIMK	native_class_mapping_available_not_yet_FDR	主搜索存在类别胜出肽，未达1%肽段q	0.014285714285714285	0.012345679012345678	0.043478260869565216	65	44	64	存在竞争解释或预测冲突	False	False
+	ACTB;ACTG1	DLYANNVLSGGTTMYPGIADR	DIYANNVISGGTTMYPGIADR	ordinary_reference_identity_ambiguity	普通参考身份歧义，不作为SAAP类别阳性				0	0	0	普通肽同化学身份无法区分	False	False
+	ACTA2;ACTC1;ACTG2	DLYANTVLSGGTTMYPGIADR	DIYANTVISGGTTMYPGIADR	ordinary_reference_identity_ambiguity	普通参考身份歧义，不作为SAAP类别阳性				0	0	0	普通肽同化学身份无法区分	False	False
+E13	PSME1	ISELDAFLKEPALSEANLSNLK	ISEIDAFIKEPAISEANISNIK	native_class_mapping_available_not_yet_FDR	主搜索存在类别胜出肽，未达1%肽段q	0.014285714285714285	0.012345679012345678		2	2	2	新增多项一致性证据	False	False
+E15	RTN4	KPAAGLSAAPVPTTPAAGAPLMDFGNDFVPPAPR	KPAAGISAAPVPTTPAAGAPIMDFGNDFVPPAPR	native_class_mapping_available_not_yet_FDR	主搜索存在类别胜出肽，未达1%肽段q	0.014285714285714285			4	4	0	模型不支持	False	False
+	ACTB;ACTG1;POTEE	LCYVALDFENEMATAASSSSLEK	ICYVAIDFENEMATAASSSSIEK	ordinary_reference_identity_ambiguity	普通参考身份歧义，不作为SAAP类别阳性				0	0	0	普通肽同化学身份无法区分	False	False
+	H2AC18;H2AC20	VGAGAPVYIAAVLEYLTAEILELAGNAAR	VGAGAPVYIAAVIEYITAEIIEIAGNAAR	ordinary_reference_identity_ambiguity	普通参考身份歧义，不作为SAAP类别阳性				0	0	0	普通肽同化学身份无法区分	False	False
+	H2AC18;H2AC20	VGAGAPVYLAAVLEYLTAEILELAGNAAR	VGAGAPVYIAAVIEYITAEIIEIAGNAAR	ordinary_reference_identity_ambiguity	普通参考身份歧义，不作为SAAP类别阳性				0	0	0	普通肽同化学身份无法区分	False	False

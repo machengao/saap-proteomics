@@ -1,0 +1,56 @@
+[
+  {
+    "test": "native-dda",
+    "phase": "dp",
+    "mode": "Standard",
+    "labels": 0,
+    "lfq": 0,
+    "dp": true,
+    "include_contaminants": true
+  },
+  {
+    "test": "native-dda",
+    "phase": "closed",
+    "mode": "Standard",
+    "labels": 0,
+    "lfq": 0,
+    "dp": false,
+    "include_contaminants": true
+  },
+  {
+    "test": "native-lfq",
+    "phase": "dp",
+    "mode": "Standard",
+    "labels": 0,
+    "lfq": 1,
+    "dp": true,
+    "include_contaminants": false
+  },
+  {
+    "test": "native-lfq",
+    "phase": "closed",
+    "mode": "Standard",
+    "labels": 0,
+    "lfq": 1,
+    "dp": false,
+    "include_contaminants": false
+  },
+  {
+    "test": "native-tmt",
+    "phase": "dp",
+    "mode": "Reporter MS3",
+    "labels": 6,
+    "lfq": 0,
+    "dp": true,
+    "include_contaminants": true
+  },
+  {
+    "test": "native-tmt",
+    "phase": "closed",
+    "mode": "Reporter MS3",
+    "labels": 6,
+    "lfq": 0,
+    "dp": false,
+    "include_contaminants": true
+  }
+]

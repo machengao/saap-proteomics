@@ -1,0 +1,163 @@
+{
+  "dataset": "PXD034575, selected exported scan rows and reference extracts",
+  "selection": "purposive regression only",
+  "physical_scan_keys": [
+    [
+      "CRC_2P",
+      "1067"
+    ],
+    [
+      "CRC_2P",
+      "132746"
+    ],
+    [
+      "CRC_2P",
+      "23"
+    ],
+    [
+      "CRC_2P",
+      "2611"
+    ],
+    [
+      "CRC_2P",
+      "78"
+    ],
+    [
+      "CRC_2P",
+      "96939"
+    ],
+    [
+      "CRC_3P",
+      "104335"
+    ],
+    [
+      "CRC_3P",
+      "106008"
+    ],
+    [
+      "CRC_3P",
+      "111821"
+    ],
+    [
+      "CRC_3P",
+      "112151"
+    ],
+    [
+      "CRC_3P",
+      "23"
+    ],
+    [
+      "CRC_3P",
+      "82789"
+    ],
+    [
+      "CRC_3P",
+      "87360"
+    ],
+    [
+      "CRC_3P",
+      "87672"
+    ],
+    [
+      "CRC_3P",
+      "87831"
+    ],
+    [
+      "CRC_3P",
+      "88163"
+    ],
+    [
+      "CRC_3P",
+      "88330"
+    ],
+    [
+      "CRC_5P",
+      "98524"
+    ]
+  ],
+  "expected_vs_observed": {
+    "relaxed_hypotheses": 69,
+    "strict_hypotheses": 14,
+    "strict_physical_scans": 13,
+    "strict_sequences": 8,
+    "strict_IL_events": 7,
+    "historical_context_rows_matched": 72,
+    "competition_reference_proteins": 79,
+    "competition_variant_proteins": 6
+  },
+  "checks": [
+    "strict key set and six numeric columns",
+    "IL-event identifiers",
+    "normal/variant routes and source protein coordinates",
+    "serialized FASTA peptide coordinates",
+    "two RAW files with same scan number",
+    "named warning exclusion; DP decoy exclusion",
+    "empty candidate output",
+    "unsupported reporter chemistry rejected",
+    "input and returned artifact checksum mismatch rejected"
+  ],
+  "jobs": [
+    {
+      "schema": 1,
+      "stage": "discover",
+      "inputs": {
+        "mqpar": {
+          "path": "mqpar.xml",
+          "size": 34317,
+          "sha256": "a9923b5d67322c8527dcb2a6ba5279abf2c79f270a6071b7e03bc89a657f19a6"
+        },
+        "scans": {
+          "path": "msmsScans.txt",
+          "size": 11204,
+          "sha256": "11ce98d2f5e7c5097359a268a4ed5e354ef9296692a590c6a479db932001d717"
+        }
+      },
+      "parameters": {
+        "mass_tolerance_da": 0.005,
+        "pep_max": 0.01,
+        "localization_min": 0.9
+      },
+      "code": {
+        "saap.py": "59696ae16043dd8b1c9db592992fcac77082e4bf1ef5028b7786246f7f69badc",
+        "scan_input.py": "bd9940fa97749e23600fa51d211b33b1a3cff13ed0e3f7efb41b9cac030282f3",
+        "discovery.py": "99ff0cd7c5d24dedd56251a95d3b4f0b5ccd7467f76ee4d8c5992e5b313cef95",
+        "competition.py": "e39d14894e2e996e7d2a272f9ced46f627601f0012b980bf5c21eaba0c481b97"
+      }
+    },
+    {
+      "schema": 1,
+      "stage": "competition",
+      "inputs": {
+        "candidates": {
+          "path": "d2/candidates.tsv",
+          "size": 6276,
+          "sha256": "c9a457affb2171aec7b70b0865c05573a889428313129b2ad066802cb3f26fc7"
+        },
+        "reference": {
+          "path": "ref0.fasta",
+          "size": 8876,
+          "sha256": "ccf351b705ebfed973483df0bed669b3eb6ae84103a7e124ef744e1fc5a34700"
+        },
+        "isoforms": {
+          "path": "ref1.fasta",
+          "size": 32134,
+          "sha256": "1311293116591cb875a8a7fb56da65e8610b86d02314bfc214fe4ff32636de2c"
+        },
+        "contaminants": {
+          "path": "ref2.fasta",
+          "size": 297,
+          "sha256": "8e594e860ffa68be76312fcc319c5b476b4ad3d25042502f7a178c396c0c3ad6"
+        }
+      },
+      "parameters": {},
+      "code": {
+        "saap.py": "59696ae16043dd8b1c9db592992fcac77082e4bf1ef5028b7786246f7f69badc",
+        "scan_input.py": "bd9940fa97749e23600fa51d211b33b1a3cff13ed0e3f7efb41b9cac030282f3",
+        "discovery.py": "99ff0cd7c5d24dedd56251a95d3b4f0b5ccd7467f76ee4d8c5992e5b313cef95",
+        "competition.py": "e39d14894e2e996e7d2a272f9ced46f627601f0012b980bf5c21eaba0c481b97"
+      }
+    }
+  ],
+  "tested_execution": "Windows, extracted MaxQuant outputs only",
+  "maxquant_searches_started": 0
+}

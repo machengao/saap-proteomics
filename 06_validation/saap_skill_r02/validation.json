@@ -1,0 +1,40 @@
+{
+  "physical_input_scan_rows": 18,
+  "real_peak_spectra": 3,
+  "loose_hypotheses": 69,
+  "unique_substitutions": 37,
+  "verified_against_frozen_Prosit": [
+    {
+      "scan": "CRC_3P:87360",
+      "unit": "DP_SAAP_0000969_122aa65a",
+      "max_error": 0.0,
+      "best_competitor": "DLYATNVLSGGTTMYPGIADR"
+    },
+    {
+      "scan": "CRC_3P:87672",
+      "unit": "DP_SAAP_0000971_122aa65a",
+      "max_error": 0.0,
+      "best_competitor": "DLYATNVLSGGTTMYPGIADR"
+    },
+    {
+      "scan": "CRC_2P:132746",
+      "unit": "DP_SAAP_0002366_d9596cfe",
+      "max_error": 0.0,
+      "best_competitor": "TVVLVTHQLQYLEFC[UNIMOD:4]GQIILLENGK"
+    },
+    {
+      "scan": "CRC_2P:132746",
+      "unit": "DP_SAAP_0002367_d9596cfe",
+      "max_error": 0.0,
+      "best_competitor": "TVVLVTHQLQYLEFC[UNIMOD:4]GQIILLENGK"
+    }
+  ],
+  "started_MaxQuant_searches": 0,
+  "external_predictions_submitted": 0,
+  "synthetic_checks": [
+    "TMT6 R-to-K and K-to-R deltas",
+    "C fixed/free",
+    "Trypsin vs Trypsin/P before proline"
+  ],
+  "platform": "Windows"
+}

@@ -1,0 +1,4 @@
+本包是从 PXD034575 既有搜索结果抽取的 18 行扫描记录、参考摘录和 3 张已缓存的真实 MS2，不含 RAW。SAAP_evidence.tsv 是对应抽样总表。validation.json 保存 4 个逐谱单元与历史结果的核对。native_mq_readback.json 是 MaxQuant 2.8.1.0 对 6 份参数的实际读取结果。
+在学校机器安装 skill 所列 Python 依赖后，将 design.json 的 maxquant_conf 改为该机 MaxQuant 2.8.1.0 的 bin/conf。在本包目录执行下一行，选择未使用过的输出目录：
+python /path/to/saap-proteomics/scripts/pipeline.py workflow.json --dp-txt dp-export --closed-txt closed-export --out replay-01
+本例仅重放导出表。XML 中历史路径用于核对 RAW 主名和记录原库来源，未读取原始文件。缓存是从项目模型响应中按行摘录的张量，原始响应校验与行号记录在 cache_provenance.json。四个有历史逐谱比较的单元应复现，其他化学形式缺预测时会保留缺失注释。控制用例的合成 TMT 配置不构成 TMT 生物样本验收。

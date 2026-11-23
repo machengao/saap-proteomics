@@ -1,0 +1,435 @@
+[
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_12b4a53f43bd63ac83db9541.rows.json",
+    "source_response_sha256": "ef596f579f9922837b705f7c3bd6b735d60660e04528f88a29abf7a4ad5f0a45",
+    "selected_row_indices": [
+      20,
+      48,
+      180,
+      301,
+      512,
+      647,
+      852,
+      860
+    ],
+    "selected_count": 8
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_24aaa2ff4de7755b29a7b331.rows.json",
+    "source_response_sha256": "3de4055e951ef989adf2767f21d2c6a661fe8eeb0c00fd1e28ee847b611544c8",
+    "selected_row_indices": [
+      115,
+      727,
+      744,
+      782,
+      785,
+      929
+    ],
+    "selected_count": 6
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_28f9af166f9d5764b60f7c81.rows.json",
+    "source_response_sha256": "503c3b748d6731d841f9733abf6c0eae90a42f9adf8b3fa9273511adbe60990c",
+    "selected_row_indices": [
+      2,
+      18,
+      31,
+      126,
+      236,
+      360,
+      415,
+      420,
+      439,
+      520,
+      616,
+      617
+    ],
+    "selected_count": 12
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_2b246a5de5e28112cc465bc3.rows.json",
+    "source_response_sha256": "809dfc7940a2e396fcff17e94d4044849430f96155b2a30423b5bba2301b1e96",
+    "selected_row_indices": [
+      72,
+      152,
+      215,
+      452,
+      575,
+      590,
+      706,
+      853
+    ],
+    "selected_count": 8
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_32c1031c322e5f4bc7bf1b3e.rows.json",
+    "source_response_sha256": "59ea4f414fa2130831292edb957e835180055750f04d629906ce55edb8856bab",
+    "selected_row_indices": [
+      185,
+      225,
+      252,
+      578,
+      754,
+      935,
+      942
+    ],
+    "selected_count": 7
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_32f31427f91f88083da99551.rows.json",
+    "source_response_sha256": "36c6a17f6bc0b42566b09301262033bb0921024bb529808e7a409a736d69c765",
+    "selected_row_indices": [
+      495,
+      532,
+      805,
+      830
+    ],
+    "selected_count": 4
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_3dbf766dcb2b7b60b727622d.rows.json",
+    "source_response_sha256": "d9b124ee1ac60427a63dde9a8e0cc0ebb3b807a487865d30f9e6fd212ff86773",
+    "selected_row_indices": [
+      26,
+      97,
+      105,
+      117,
+      173,
+      226,
+      692
+    ],
+    "selected_count": 7
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_3f5b864fc336fa681e570e75.rows.json",
+    "source_response_sha256": "56064268c6da90565b68add2d730bf341f77e67568605f31119578717d486375",
+    "selected_row_indices": [
+      193,
+      233,
+      269,
+      302,
+      416,
+      669,
+      908
+    ],
+    "selected_count": 7
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_4481c3c262b7582e7e50362b.rows.json",
+    "source_response_sha256": "0ca73d239689c9ddd02cb7ebf413a6ba817a489a3b4876b094d8e8e3b5e910ca",
+    "selected_row_indices": [
+      445,
+      835,
+      895,
+      937
+    ],
+    "selected_count": 4
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_60af2d481ef453fcae89f4b7.rows.json",
+    "source_response_sha256": "0e6a0f3a5904149d9634e154e7415c3d3c054abd8df56b67e6f5a3a63717a130",
+    "selected_row_indices": [
+      35,
+      101,
+      122,
+      172,
+      326,
+      579,
+      623,
+      706,
+      811
+    ],
+    "selected_count": 9
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_7954cd99a6d9789145c37e2d.rows.json",
+    "source_response_sha256": "6d020eccecfef2bec7ded964aae5fce6903b7ce169804acb58ef9048ff25eb6a",
+    "selected_row_indices": [
+      51,
+      227,
+      524,
+      533,
+      740,
+      788,
+      820,
+      856,
+      861
+    ],
+    "selected_count": 9
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_7ff7cb2758c174961d07818a.rows.json",
+    "source_response_sha256": "03b0ec19ff95ae2ef5498e0415876accf09a9adc5e9b68a234a656a9372e5472",
+    "selected_row_indices": [
+      7,
+      417,
+      485,
+      567,
+      619,
+      772,
+      780
+    ],
+    "selected_count": 7
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_815bf1dc6ba2e33f633138de.rows.json",
+    "source_response_sha256": "2567bafbb8698a05beb92c990dc7e8fcedf5dfa5444478eff49cda514b4513ea",
+    "selected_row_indices": [
+      20
+    ],
+    "selected_count": 1
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_8dcd0ff8cfe04b0e4721b50d.rows.json",
+    "source_response_sha256": "e41362b5eb039a9eb40e0640b8a1092e26eb052db7c5d9c026e4cb0613079917",
+    "selected_row_indices": [
+      29,
+      111,
+      400,
+      515,
+      727,
+      758,
+      809
+    ],
+    "selected_count": 7
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_9af66fdf0d80f5dda8884e65.rows.json",
+    "source_response_sha256": "b39fa2d0649a98ee7f1493ec50e68c5e7e184b3db3d8de91c6325e90a85d026a",
+    "selected_row_indices": [
+      151,
+      155,
+      168,
+      509,
+      837,
+      889,
+      939,
+      970
+    ],
+    "selected_count": 8
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_a33ff67d3f8eb9e634881e7e.rows.json",
+    "source_response_sha256": "f297e96a56d651383fe32b2413f26e19735a950373569ddca03a4ae7707a70fe",
+    "selected_row_indices": [
+      247,
+      259,
+      353,
+      539,
+      663
+    ],
+    "selected_count": 5
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_af134053c55becb0e55ce3d1.rows.json",
+    "source_response_sha256": "1618c904e0dc466377fc8fb936561e4fffeeeda7b1f61945cedf962aea66d404",
+    "selected_row_indices": [
+      91,
+      154,
+      419,
+      421,
+      805,
+      843,
+      866,
+      986
+    ],
+    "selected_count": 8
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_b58720dfaf583544c3c21d52.rows.json",
+    "source_response_sha256": "8f86604ce2c8b5af436d29cefa19f8be2c9aaf88a90261a290f615fb2fb14791",
+    "selected_row_indices": [
+      200,
+      240,
+      276,
+      521,
+      554,
+      714,
+      850
+    ],
+    "selected_count": 7
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_bad5e9c7122ad2fd231c4df6.rows.json",
+    "source_response_sha256": "2b73fe8e10216f9e495c0f7733929a32ed019b77c6e9d5b912eaecd36ac83027",
+    "selected_row_indices": [
+      224,
+      401,
+      441,
+      489,
+      878,
+      880,
+      983
+    ],
+    "selected_count": 7
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_bbe292f6d5328564f76638bf.rows.json",
+    "source_response_sha256": "12cd958dc62db7233d0c750e52af40ae40231ede7f21298ef48933eb4cdb2bc9",
+    "selected_row_indices": [
+      39,
+      48,
+      53,
+      129,
+      380,
+      570,
+      714,
+      979
+    ],
+    "selected_count": 8
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_c4f7d6ba71ec0fdf33da9dea.rows.json",
+    "source_response_sha256": "1c86fb373ae40b6a81223c510f0649b7eab7587e2df0e06872a1702733468f20",
+    "selected_row_indices": [
+      43,
+      338,
+      384,
+      788,
+      837
+    ],
+    "selected_count": 5
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_c630afa415b1927fa6997261.rows.json",
+    "source_response_sha256": "edccfcb9d6ecafb06d91423a9b501b6fc58c621c9560eedeee0c9ac7da5e5996",
+    "selected_row_indices": [
+      245,
+      252,
+      294,
+      324,
+      443,
+      451,
+      514,
+      543,
+      556,
+      608,
+      775,
+      847
+    ],
+    "selected_count": 12
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_c67605709f6f89d619ec2dea.rows.json",
+    "source_response_sha256": "a02c6d0015625dbaa68d8ff515c816aee2a929465bbc705aa890a69a4ce27186",
+    "selected_row_indices": [
+      225,
+      283,
+      287,
+      378,
+      641,
+      836
+    ],
+    "selected_count": 6
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_cae0bb54a16590fa9bb30fe4.rows.json",
+    "source_response_sha256": "c53af55831eb26870413df6b479b15c27ae020c724a3b506fa0d89eed3b7862c",
+    "selected_row_indices": [
+      155,
+      211,
+      223,
+      435,
+      484,
+      537,
+      746,
+      809,
+      887,
+      899
+    ],
+    "selected_count": 10
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_d1c24555d469be8a570b67bf.rows.json",
+    "source_response_sha256": "7b9cb2de41086d50964a9fbdb9feb9a76de9ae3f4b65c87746c6032ae0ac8913",
+    "selected_row_indices": [
+      152,
+      287,
+      614,
+      618,
+      985
+    ],
+    "selected_count": 5
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_d35d8279793dc8b87fa5bd9b.rows.json",
+    "source_response_sha256": "6384f1bc6bbf8abc0ecfe831057fbbba22e92c995a9a2564beb78a31f62fcae6",
+    "selected_row_indices": [
+      175,
+      238,
+      280,
+      391,
+      849,
+      864
+    ],
+    "selected_count": 6
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_d9ee52cf3a247a7422f52f12.rows.json",
+    "source_response_sha256": "d0ea2d39e1ba7cfb11c7d6d0837ee9dcf26c96d2c1b31f9d73b27cb52dac3165",
+    "selected_row_indices": [
+      4,
+      239,
+      248,
+      419,
+      550,
+      607,
+      852,
+      967
+    ],
+    "selected_count": 8
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_e0ceb88938ae644df1454c22.rows.json",
+    "source_response_sha256": "4a537c4c86bc88bbca69022b5dadee40803697790285cf70532ba4dde3d4aac3",
+    "selected_row_indices": [
+      142,
+      408,
+      630,
+      880
+    ],
+    "selected_count": 4
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_e149212af2b752d26bdd2dbb.rows.json",
+    "source_response_sha256": "516f5c7ae0ee4a68f6e27d420993e4c1c5f6c247fe0bd93473dbafcac554f89e",
+    "selected_row_indices": [
+      274,
+      289,
+      290,
+      445,
+      865,
+      914,
+      915
+    ],
+    "selected_count": 7
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_f58d7c31737bc1820d7d488c.rows.json",
+    "source_response_sha256": "db013743a201527d201c54e6d5d58917928ff9172fe16ec602f2c3dc58148376",
+    "selected_row_indices": [
+      17,
+      240,
+      367,
+      492,
+      688,
+      833,
+      969
+    ],
+    "selected_count": 7
+  },
+  {
+    "source_batch": "Prosit_2020_intensity_HCD_fbab92dbca46fc23e6ad0a89.rows.json",
+    "source_response_sha256": "4d6ea9577e74ce5333f95164393af68d04e0d287bc5a3ba58fb4547fd8206e91",
+    "selected_row_indices": [
+      8,
+      186,
+      281,
+      435,
+      513,
+      678,
+      946
+    ],
+    "selected_count": 7
+  }
+]
